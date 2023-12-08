@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Journeys</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#call-to-action">Home</a></li>
+                <li><a href="#cruises">Cruises</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img id="logo" src="Images/logo.webp" alt="Infitine Journeys Logo">
+    </header>
+    
+    <!-- Call to Action -->
+    <section id="call-to-action">
+        <h1>Explore the world</h1>
+        <p>Book your dream vacation now!</p>
+        <a href="#cruises" class="cta-button">Book Now</a>
+        <img id="travel-photo" src="Images/travel.webp" alt="People and animals walking in the mountains">
+    </section>
+
+    <!-- Booking Cruises -->
+    <section id="cruises">
+        <h2>Book Cruises</h2>
+        <form>
+            <label for="name-cruise">Name:</label>
+            <input type="text" id="name-cruise" name="name" required>
+    
+            <label for="departure">Departure:</label>
+            <input type="text" id="departure" name="departure" required>
+    
+            <label for="destination-cruise">Destination:</label>
+            <input type="text" id="destination-cruise" name="destination" required>
+    
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+    
+            <label for="passengers">Number of Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <img id="cruise-photo" src="Images/cruise-ship.webp" alt="Cruise Ship Sailing">
+    </section>
+
+    <!-- Booking Hotels -->
+    <section id="hotels">
+        <h2>Book Hotels</h2>
+        <form>
+            <label for="name-hotel">Name:</label>
+            <input type="text" id="name-hotel" name="name" required>
+    
+            <label for="destination-hotel">Destination:</label>
+            <input type="text" id="destination-hotel" name="destination" required>
+    
+            <label for="check-in">Check In:</label>
+            <input type="date" id="check-in" name="check-in" required>
+    
+            <label for="check-out">Check Out:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <img id="hotel-photo" src="Images/hotel.webp" alt="Hotel By The Sea">
+    </section>
+
+    <!-- Contact Us-->
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+    
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#terms">Terms of Service</a>
+            <a href="#copyright">Copyright</a>
+        </div>
+    </footer>
+
+</body>
+</html>

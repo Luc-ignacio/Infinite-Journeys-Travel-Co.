@@ -1,0 +1,179 @@
+body, h1, h2, p, ul, li, form{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header{
+    display: flex;
+    background-color: #374772;
+    align-items:center;
+    padding: 10px;
+    justify-content:space-between;
+}
+
+#logo{
+    height: auto;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 50px;
+    margin-top: 85px;
+}
+
+nav a{
+    color: #fffff4;
+    text-decoration:none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#travel-photo{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#call-to-action{
+    text-align: center;
+    padding: 40px 20px;
+    background-color:#fffff4;
+    color: #374772;
+
+}
+
+#call-to-action h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#call-to-action p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #374772;
+    color: #fffff4;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#cruises{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #374772;
+    color: #fffff4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    margin: 20px;
+    max-width: 100%;
+    margin: 10px 20px;
+    align-content: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 0px;
+}
+
+input{
+margin-bottom: 20px;
+}
+
+#cruises button{
+    background-color: #fffff4;
+    color: #374772;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#cruise-photo{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#hotels{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fffff4;
+    color: #374772;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hotels button{
+    background-color: #374772;
+    color: #fffff4;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#hotel-photo{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#contact-us{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #374772;
+    color: #fffff4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact-us button{
+    background-color: #fffff4;
+    color: #374772;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #fffff4;
+    color: #374772;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #374772;
+    margin: 0 5px;
+    text-decoration: none;
+}
