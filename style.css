@@ -6,6 +6,7 @@ body, h1, h2, p, ul, li, form{
 body{
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
+    width:100%;
 }
 
 header{
